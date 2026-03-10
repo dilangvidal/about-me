@@ -4,7 +4,7 @@
 **Ingeniero de Sistemas** con más de 4 años de experiencia en desarrollo backend, frontend y liderazgo técnico.
 Especializado en construir soluciones escalables, optimizar rendimiento y migrar sistemas legacy hacia arquitecturas modernas.
 
-Basado en 📍 Barranquilla, Colombia — trabajando con equipos a nivel regional, nacional e internacional.
+Colombia 🇨🇴 — trabajando con equipos a nivel regional, nacional e internacional.
 
 ---
 
