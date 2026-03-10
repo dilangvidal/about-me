@@ -48,44 +48,56 @@ export const techStack: readonly TechItem[] = [
 
 export const experiences: readonly Experience[] = [
     {
-        company: 'MRS Tecnología',
-        role: 'Líder Técnico & Desarrollador Full Stack',
-        period: '2022 — Presente',
+        company: 'Universidad de La Guajira',
+        role: 'Desarrollador Mobile / Backend / Web',
+        period: '2025 — 2026',
         description:
-            'Liderazgo técnico de equipos de desarrollo. Optimización de rendimiento y migración de sistemas legacy a arquitecturas modernas.',
+            'Desarrollo de aplicaciones del sector público incluyendo una app móvil en tiempo real y un sistema ERP para administración universitaria.',
         achievements: [
-            'Optimización de consultas SQL logrando +80% de mejora en rendimiento',
-            'Migración exitosa de sistemas legacy a arquitectura de microservicios',
-            'Implementación de pipelines CI/CD reduciendo tiempos de deploy en 60%',
-            'Liderazgo de equipo de 5 desarrolladores con metodología ágil',
+            'App React Native con funcionalidades en tiempo real para gestión académica',
+            'Sistema ERP completo para administración universitaria (sector público)',
+            'Integración con APIs gubernamentales y sistemas de pagos',
         ],
-        technologies: ['C# .NET', 'Angular', 'SQL Server', 'Azure DevOps', 'Docker'],
+        technologies: ['React Native', 'Node.js', 'PostgreSQL', 'React'],
     },
     {
         company: 'Covisian',
         role: 'Desarrollador Backend',
-        period: '2021 — 2022',
+        period: '2025',
         description:
-            'Creación de módulos empresariales para clientes del sector telecomunicaciones y servicios.',
+            'Creación y refactorización de módulos empresariales con reducción significativa de incidencias en producción.',
         achievements: [
             'Desarrollo de módulos empresariales para gestión de clientes',
-            'Integración de APIs RESTful con sistemas externos',
-            'Implementación de principios SOLID y Clean Architecture',
+            'Refactorización de código logrando -25% de incidencias en producción',
+            'Mejora de rendimiento en entornos de producción',
         ],
         technologies: ['PHP Laravel', 'MySQL', 'Node.js', 'React'],
     },
     {
-        company: 'Universidad de La Guajira',
-        role: 'Desarrollador Full Stack',
+        company: 'MRS Tecnología',
+        role: 'Líder Técnico & Desarrollador Backend',
+        period: '2022 — 2025',
+        description:
+            'Liderazgo técnico de equipos de desarrollo. Optimización de rendimiento SQL, migración de sistemas legacy y despliegues en producción.',
+        achievements: [
+            'Optimización de consultas SQL logrando +80% de mejora en rendimiento',
+            'Migración exitosa de sistemas legacy a arquitectura de microservicios',
+            'Implementación de pipelines CI/CD y despliegues en producción',
+            'Liderazgo de equipo de 3 desarrolladores con metodología ágil',
+        ],
+        technologies: ['PHP Laravel', 'C# .NET', 'Angular', 'SQL Server', 'Azure DevOps', 'Docker'],
+    },
+    {
+        company: 'Fundación Educativa Danza Juacar',
+        role: 'Desarrollador Web',
         period: '2020 — 2021',
         description:
-            'Desarrollo de aplicaciones del sector público incluyendo una app móvil en tiempo real y un sistema ERP.',
+            'Desarrollo de la plataforma institucional web para la fundación educativa.',
         achievements: [
-            'App React Native con funcionalidades en tiempo real para gestión académica',
-            'Sistema ERP completo para administración universitaria (sector público)',
-            'Integración con servicios gubernamentales y sistemas de pagos',
+            'Diseño y desarrollo de plataforma institucional completa',
+            'Implementación de sitio responsivo con gestión de contenido',
         ],
-        technologies: ['React Native', 'Node.js', 'PostgreSQL', 'React'],
+        technologies: ['HTML', 'CSS', 'JavaScript', 'PHP'],
     },
 ] as const;
 
@@ -113,6 +125,12 @@ export const projects: readonly Project[] = [
         description:
             'Migración completa de sistemas monolíticos legacy hacia arquitectura de microservicios. Optimización de rendimiento SQL con +80% de mejora.',
         technologies: ['C# .NET', 'Docker', 'Azure DevOps', 'SQL Server'],
+    },
+    {
+        title: 'Plataforma Fundación Danza Juacar',
+        description:
+            'Plataforma institucional web para la Fundación Educativa Danza Juacar. Sitio responsivo con gestión de contenido para la comunidad educativa.',
+        technologies: ['HTML', 'CSS', 'JavaScript', 'PHP'],
     },
 ] as const;
 
