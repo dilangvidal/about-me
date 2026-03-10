@@ -1,44 +1,36 @@
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-# 👋 Hola, soy Dilan González Vidal
+## Getting Started
 
-**Ingeniero de Sistemas** con más de 4 años de experiencia en desarrollo backend, frontend y liderazgo técnico.
-Especializado en construir soluciones escalables, optimizar rendimiento y migrar sistemas legacy hacia arquitecturas modernas.
+First, run the development server:
 
-Basado en 📍 Barranquilla, Colombia — trabajando con equipos a nivel regional, nacional e internacional.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🚀 En qué trabajo
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- 🔧 **Backend**: PHP Laravel · C# .NET · Node.js · Java Spring · Python
-- 🌐 **Frontend**: React · Next.js · Angular · React Native · TypeScript
-- 🗄️ **Bases de datos**: MySQL · PostgreSQL · SQL Server · MongoDB
-- ☁️ **DevOps & Cloud**: Azure DevOps · GitHub Actions · Docker · AWS (EC2, S3) · CI/CD
-- 🔗 **Arquitectura**: APIs RESTful · Microservicios · Clean Architecture · SOLID
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
----
+## Learn More
 
-## 💼 Experiencia destacada
+To learn more about Next.js, take a look at the following resources:
 
-- 🏛️ **Universidad de La Guajira** — App React Native en tiempo real + Sistema ERP (sector público)
-- 📞 **Covisian** — Creación de módulos empresariales 
-- ⚙️ **MRS Tecnología** — Liderazgo técnico · Optimización SQL +80% rendimiento · Migración de sistemas legacy
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
----
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## 🌱 Actualmente explorando
+## Deploy on Vercel
 
-Programación reactiva con **WebFlux**, servicios **AWS** (DynamoDB, SQS, EventBridge) y automatización con **n8n**.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
----
-
-## 🤝 Abierto a colaborar en
-
-Proyectos backend desafiantes, arquitecturas modernas, open source y mentorías técnicas.
-
----
-
-## 📫 Contáctame
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-dilangvidal-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/dilangvidal/)
-[![Gmail](https://img.shields.io/badge/Gmail-dilangvidal@gmail.com-EA4335?style=flat&logo=gmail)](mailto:dilangvidal@gmail.com)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
